@@ -22,3 +22,8 @@ El diseño te lo dejamos para vos :)
 ### El extra mile
 
 Si se te ocurre alguna cosa piola para agregarle al challenge y queres hacerlo y mostrarnos nos ayudarías a mejorar este ejercicio.
+
+
+### Levantar backend y frontend
+
+Sobre la carpeta backend ejecutar npm run start

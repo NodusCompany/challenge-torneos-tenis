@@ -1,0 +1,41 @@
+<table class="table table-striped">
+	<thead>
+	  <tr>
+		<th scope="col">Torneo</th>
+		<th scope="col">Máximo Ganador</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr app-grand-slam *ngFor="let grandSlamJson of grandSlams" [grandSlam] = "grandSlamJson" (showInfoEvent)= "abrir_modal($event)"></tr>
+	</tbody>
+</table>
+
+<!-- Modal -->
+<ng-template #modalContent><div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Datos Adicionales</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+    </button>
+  </div>
+  <div class="modal-body">
+    <form>
+		<div class="row">
+      		<div class="form-group">
+				<label>Ultima vez ganado</label>
+				<div class="input-group">
+				<input name="ultima_vez_ganado" id="ultima_vez_ganado" type="number" class="form-control"[(ngModel)]="selectedGrandSlam[2]">
+				</div>
+      		</div>
+		</div>
+		<div class="row">
+			<div class="form-group">
+				<label>Cantidad de Triunfos</label>
+				<div class="input-group">
+				<input name="cant_triunfos" id="cant_triunfos" type="number" class="form-control"[(ngModel)]="selectedGrandSlam[3]">
+				</div>
+      		</div>
+		</div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="cerrar_modal()">Cerrar</button>
+  </div></ng-template>
