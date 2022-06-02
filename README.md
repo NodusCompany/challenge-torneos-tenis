@@ -8,10 +8,10 @@ El diseño te lo dejamos para vos :)
 
 ### Consignas y Tips
 
-* Resolvelo en PHP y que el backend funcione como una API REST.
+* Es necesario que el backend funcione como una API REST, la tecnología queda a tu elección.
 * La resolución debe ser un fork de este repo (Se evalúa el uso de GIT).
-* El resultado nos gustaría verlo en HTML, CSS y JS haciendo llamadas asincronas al backend. Podes usar el framework de js que quieras :)
-* No uses el nombre del Grand Slam como indentificador. Si le prestas atención al excel hay otra forma :).
+* El front debe ser en React, haciendo llamadas asincrónicas a la API desarrollada.
+* Maquetado full responsive (480-1920)
 * Implementá un sistema de Logs que registre tres tipos de mensajes (Error, Warning y Success) para la respuesta de nuestra API y de las peticiones que le realicemos al sheet que utilizamos.
 
 
