@@ -13,9 +13,10 @@ El diseño te lo dejamos para vos :)
 * El front debe ser en React, haciendo llamadas asincrónicas a la API desarrollada.
 * Maquetado full responsive (480-1920)
 * Implementá un sistema de Logs que registre tres tipos de mensajes (Error, Warning y Success) para la respuesta de nuestra API y de las peticiones que le realicemos al sheet que utilizamos.
-
+* Guiarse por este diseño (assets incluidos): [diseño.zip](https://github.com/NodusCompany/challenge-torneos-tenis/files/8826445/diseno.zip)
 
 ### BONUS
+
 
 * Desarrollá un script que permita ejecutar la aplicación (Back y Front) como si fuera un deploy y dar instrucciones de su ejecución. Preferentemente en Shell Script.
 
