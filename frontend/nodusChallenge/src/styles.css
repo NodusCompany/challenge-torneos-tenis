@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+ngb-modal-window{
+    margin-top: 70px!important;
+    opacity:1 !important;
+}
+
+ngb-modal-backdrop{
+    opacity: 0.2 !important;
+}
+
+.modal-dialog{
+    transform: none!important;
+}
